@@ -11,4 +11,5 @@ Set up once:
 Then in App Store Connect: Privacy Policy URL https://castledefense.app/privacy, Support URL https://castledefense.app/support, Marketing URL https://castledefense.app/ (GitHub Pages serves `privacy.html` at `/privacy`; the site's own links use the short form, Jack)
 
 Support email in `privacy.html` and `support.html`: support@castledefense.app. Once the game is live, make the "Coming soon to the App Store" button in `index.html` a link (see the `APP_STORE` comment) for the App Store link and Apple's official badge.
+The itch.io badge (`img/itch-badge.svg`, made to match Apple's: black, the itch.io mark, "Play the free demo on itch.io") sits beside the App Store badge in the hero and the ending, linking to https://noobstickz.itch.io/castledefense-medieval.
 Pictures: `img/hero.jpg` is the title showcase rendered without the title; the four game shots are the store set's raw frames (no captions; `tools/render/store/`), shrunk to 1600 px; `video/trailer.mp4` is `design/store/trailer-iphone.mp4` at 1280 px.

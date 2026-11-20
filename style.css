@@ -198,5 +198,7 @@ footer .tm { flex-basis: 100%; margin-top: 8px; font-size: 13px; opacity: .7 }
   .hero .tag { margin: 16px 0 20px }
   .hero .wrap { padding-top: 84px; padding-bottom: 40px }
 }
+.stores { display: flex; flex-wrap: wrap; gap: 12px; align-items: center }
+.end .stores { justify-content: center }
 .badge { display: inline-block; line-height: 0 }
 .badge img { height: 54px; width: auto; display: block }
